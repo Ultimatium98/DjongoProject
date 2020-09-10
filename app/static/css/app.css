@@ -1,0 +1,111 @@
+.page-header {
+     background-color: #82C0FF;
+     margin-top: 0;
+     padding: 20px 20px 20px 40px;
+     margin-bottom: 0px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+     color: #ffffff;
+     font-size: 36pt;
+     text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+     font-family: 'Lobster', cursive;
+}
+
+.date {
+     color: #828282;
+}
+
+.save {
+     float: right;
+     background-color: #66CC66;
+     color: white;}
+
+.post-form textarea, .post-form input {
+     width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+     color: #ffffff;
+     float: right;
+     font-size: 26pt;
+     margin-right: 20px;
+}
+
+.post {
+     margin-bottom: 70px;
+}
+
+.post h2 a, .post h2 a:visited {
+     color: #000000;
+}
+
+.nav-item  a {
+    font-size: 28px;
+    text-align: center;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: center;
+}
+
+p {
+    font-size: 22px;
+}
+
+.analytics {
+    padding-top: 50px;
+
+}
+
+.info {
+    padding-bottom: 70px;
+}
+
+.content .container {
+    justify-content: center;
+    align: center;
+}
+
+div.content.container{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.row {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.mr-auto, .mx-auto {
+    margin-right: 0 !important;
+    margin-top: 10px !important;
+    width: 70%;
+    justify-content: space-around;
+}
+
+.block {
+    text-align: center;
+}
+
+.block h1 {
+    margin-bottom: 40px;
+}
+
+.block p {
+    margin-bottom: 30px;
+}
+
+.order-account {
+    background-color: none;
+}
+
+.order-account p {
+    font-size: 19px;
+}

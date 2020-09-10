@@ -1,0 +1,17 @@
+{% extends 'app/base.html' %}
+
+{% block content %}
+<div class="block">
+    <h1>{{ user }}'s Profile</h1>
+
+    <p> BTC: {{ profile.btc }}</p>
+    <p> Bilance: {{ wallet }}</p>
+
+    <h1>Orders</h1>
+    {% for order in orders %}
+        <div class="order-account">
+            <p>{{ order }}</p>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'app/base.html' %}
+
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="block">
+    <h1>analytics</h1>
+    {% for user in users %}
+    <div>
+        <p> user {{ user }} had a {{ user.profit }}% profit</p>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

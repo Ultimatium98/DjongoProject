@@ -1,0 +1,13 @@
+{% extends 'app/base.html' %}
+
+{% block content%}
+<div class="block">
+    {% if msg %}
+        <p>{{ msg }}</p>
+    {% else %}
+    <h1>Welcome!</h1>
+    <p>This app has been designed by Alessio Caperna </p>
+    {% endif %}
+
+</div>
+{% endblock %}

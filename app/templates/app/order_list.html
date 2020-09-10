@@ -1,0 +1,13 @@
+{% extends 'app/base.html' %}
+
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="block">
+        <h1>Order list</h1>
+        {% for order in orders %}
+            <div>
+                <p>User {{ order.profile }} {{ order.position }}s {{ order.quantity }} BTC at {{ order.price }}$</p>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
